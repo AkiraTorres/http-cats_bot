@@ -1,6 +1,6 @@
-#Cats Http Bot
+# Cats Http Bot
 
-CÃ³´dig de erro http traduzidos para fotos de gatos.   
+Codigos de erro http traduzidos para fotos de gatos.   
 Bot ainda em desenvolvimento.
 
 ![404](https://http.cat/404)
