@@ -15,7 +15,7 @@ numpy==1.17.4
 oauthlib==3.1.0
 pefile==2019.4.18
 pycparser==2.19
-PyInstaller==3.5
+PyInstaller==3.6
 pylab==0.0.2
 pylint==2.4.3
 pynput==1.5.2
