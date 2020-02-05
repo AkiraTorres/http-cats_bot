@@ -3,6 +3,7 @@ import tweepy
 import random
 import time
 import requests
+from datetime import datetime
 
 HTTP_CATS_URL = "https://http.cat/" # Link para acessar a API do http.cat
 
@@ -26,7 +27,7 @@ with open('http.txt') as _file:
 def down(): # Acessa a API do http.cat e realiza o download da imagem 
     random.shuffle(http)
     filename = 'temp.jpg'
-    url = HTTP_CATS_URL + http[0]
+    url = HTTP_CATS_URL + http[i]
     request = requests.get(url, stream=True)
     with open (filename, "wb") as image:
         for chunk in request:
@@ -37,8 +38,10 @@ def cats():
     photo = 'temp.jpg'
     api.update_with_media(photo)
 
-print("Perfeito")
 while(True):
     down()
-    cats()
-    time.sleep(3600)
+    #cats()
+    now = datetime.now()
+    timen = now.strftime("%d/%m/%Y %H:%M:%S")
+    print("Imagem postada as ", timen)
+    time.sleep(300)
