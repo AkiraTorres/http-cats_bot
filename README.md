@@ -1,6 +1,8 @@
 # Cats Http Bot
 
-Esse é um bot que posta uma fotos de gatos relacionadas a erros de http a cada uma hora no [@CatsHttp_Bot](https://twitter.com/CatsHttp_Bot)  
+Esse é um Bot que posta uma fotos de gatos relacionadas a erros de http a cada uma hora no
+[@CatsHttp_Bot](https://twitter.com/CatsHttp_Bot) 
+ 
 ![404](https://http.cat/404)
 
 ## Instalando e executando
@@ -37,9 +39,10 @@ python3 core.py
 ## Futuras atualizações:
 
 - [X] Conseguir um seviço de hospedagem gratuito para o bot.
-- [X] O bot mostrar no terminal uma mensagem com a hora assim que uma mensagem for postada.
-- [ ] Criar um intervalo para o bot não repetir uma imagem no mesmo dia.
-- [ ] Mensagem para o bot responder alguém quando for marcado.
+- [X] O Bot mostrar no terminal uma mensagem com a hora assim que uma mensagem for postada.
+- [ ] Criar um intervalo para o Bot não repetir uma imagem no mesmo dia.
+- [ ] Mensagem para o Bot responder alguém quando for marcado.
 - [ ] Atualização de Status relativa a imagem a cada atualização.  
+- [ ] Atualizar o Icon do Bot no Twitter.
 
 Fotos retiradas do site [HTTP Cats](https://http.cat/)
