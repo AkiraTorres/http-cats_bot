@@ -40,7 +40,8 @@ python3 core.py
 
 - [X] Conseguir um seviço de hospedagem gratuito para o bot.
 - [X] O Bot mostrar no terminal uma mensagem com a hora assim que uma mensagem for postada.
-- [ ] Criar um intervalo para o Bot não repetir uma imagem no mesmo dia.
+- [X] Criar um intervalo para o Bot não ficar repetindo uma imagem.
+- [ ] Resolver problema de Timeout Error.
 - [ ] Mensagem para o Bot responder alguém quando for marcado.
 - [ ] Atualização de Status relativa a imagem a cada atualização.  
 - [ ] Atualizar o Icon do Bot no Twitter.
