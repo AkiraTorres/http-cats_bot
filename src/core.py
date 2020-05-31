@@ -46,11 +46,11 @@ def main():
             except:
                 break        
             time.sleep(10)
-            #cats()
+            cats()
             now = datetime.now()
             timen = now.strftime("%d/%m/%Y %H:%M:%S")
             print(f"{i}: Imagem {http[i]} postada as {timen} ")
         os.system('cls' if os.name == 'nt' else 'clear')
-        #random.shuffle(http)
+        random.shuffle(http)
 
 main()
